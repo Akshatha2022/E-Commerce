@@ -36,6 +36,22 @@ THEN I am able to successfully create, update, and delete data in my database
 
 
 
+Installation Steps:
+
+1. Installing Seed `npm i seed`
+2. Installing Sequilize `npm i sequelize`
+3. Installing Express `npm i express`
+4. Installing mysql `npm i mysql2`
+5. Installing dotenv `npm i dotenv`
+6. Running the seed `npm run seed`
+7. Starting the app `npm start`
+
+
+
+<br>
+
+
+
 
 
 
