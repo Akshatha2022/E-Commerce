@@ -1,131 +1,94 @@
 User Story
+
 AS A manager at an internet retail company
+
 I WANT a back end for my e-commerce website that uses the latest technologies
+
 SO THAT my company can compete with other e-commerce companies
 
 
+
+
+
 Acceptance Criteria
+
 GIVEN a functional Express.js API
+
 WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
+
 THEN I am able to connect to a database using Sequelize
+
 WHEN I enter schema and seed commands
+
 THEN a development database is created and is seeded with test data
+
 WHEN I enter the command to invoke the application
+
 THEN my server is started and the Sequelize models are synced to the MySQL database
+
 WHEN I open API GET routes in Insomnia Core for categories, products, or tags
+
 THEN the data for each of these routes is displayed in a formatted JSON
+
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
+
 THEN I am able to successfully create, update, and delete data in my database
 
 
 
 
-Database Models
-Your database should contain the following four models, including the requirements listed for each model:
 
-Category
 
-id
+Video/GIF Walkthrough:
 
-Integer
+GET ALL 
 
-Doesn't allow null values
 
-Set as primary key
+![A screenshot displays a GETALL.](./Develop/WalkthroughGIF/GETALL.gif)
 
-Uses auto increment
 
-category_name
 
-String
 
-Doesn't allow null values
 
-Product
+GETONE Category
 
-id
+![This GIF displays a GET One Category](./Develop/WalkthroughGIF/GETONE.gif)
 
-Integer
 
-Doesn't allow null values
 
-Set as primary key
+POST
 
-Uses auto increment
+![This GIF displays a POST](./Develop/WalkthroughGIF/POST.gif)
 
-product_name
+PUT
 
-String
 
-Doesn't allow null values
+![This GIF displays a PUT](./Develop/WalkthroughGIF/PUT.gif)
 
-price
 
-Decimal
+DELETE
 
-Doesn't allow null values
+![This GIF displays a DELETE](./Develop/WalkthroughGIF/DELETE.gif)
 
-Validates that the value is a decimal
 
-stock
 
-Integer
 
-Doesn't allow null values
 
-Set a default value of 10
-
-Validates that the value is numeric
-
-category_id
-
-Integer
-
-References the category model's id
-
-Tag
-
-id
-
-Integer
-
-Doesn't allow null values
-
-Set as primary key
-
-Uses auto increment
-
-tag_name
-
-String
-
-ProductTag
-
-id
-
-Integer
-
-Doesn't allow null values
-
-Set as primary key
-
-Uses auto increment
-
-product_id
-
-Integer
-
-References the product model's id
-
-tag_id
-
-Integer
-
-References the tag model's id
 
 
 
 Resources:
+
 https://www.npmjs.com/package/mysql2
+
 https://www.npmjs.com/package/sequelize
+
 https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
+
+https://www.ibm.com/docs/en/odm/8.8.1?topic=ssuyd-creating-database-schema-by-running-sql-scripts
+
+https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/create-a-database-schema?view=sql-server-ver16
+
+https://www.npmjs.com/package/seed-js
+
+https://www.ibm.com/docs/en/datapower-gateway/10.0.1?topic=c-api-routing-commands
