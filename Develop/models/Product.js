@@ -9,7 +9,32 @@ class Product extends Model {}
 // set up fields and rules for Product model
 Product.init(
   {
-    // define columns
+    // defining product_name column
+    product_name: {
+      type: DataTypes.STRING,
+      allowNull: false
+  },
+  // defining price column
+  price: {
+      type: DataTypes.DECIMAL(10,2),
+      allowNull: false
+  },
+  // defining a stock column
+  stock: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+  },
+  // defining a category_id column
+  category_id: {
+      // it uses the special Sequelize DataTypes object which provides what type of data it is
+      type: DataTypes.INTEGER,
+      // it is equivalent of SQL's `NOT NULL` option
+      allowNull: false,
+      // instructing that this is the Primary Key
+      primaryKey: true,
+      // turn on auto increment
+      autoIncrement: true
+  }
   },
   {
     sequelize,
