@@ -6,16 +6,21 @@ class ProductTag extends Model {}
 
 ProductTag.init(
   {
+      // define a id column
+      id: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        primaryKey: true,
+        autoIncrement: true
+    },
     // defining a product_id column
     product_id: {
       // it uses the special Sequelize DataTypes object which provides what type of data it is
-      type: DataTypes.INTEGER,
-    allowNull: false
+      type: DataTypes.INTEGER
   },
   // defining a tag_id column
   tag_id: {
-      type: DataTypes.INTEGER,
-      allowNull: false
+    type: DataTypes.INTEGER
   }
   },
   {
