@@ -42,6 +42,10 @@ Product.init(
   category_id: {
       // it uses the special Sequelize DataTypes object which provides what type of data it is
       type: DataTypes.INTEGER,
+      references: {
+          model: "category",
+          key: "id"
+      }
     
   }
   },
