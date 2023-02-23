@@ -10,12 +10,7 @@ ProductTag.init(
     product_id: {
       // it uses the special Sequelize DataTypes object which provides what type of data it is
       type: DataTypes.INTEGER,
-      //it is equivalent of SQL's `NOT NULL` option
-      allowNull: false,
-      // instructing that this is the Primary Key
-      primaryKey: true,
-      // turn on auto increment
-      autoIncrement: true
+    allowNull: false
   },
   // defining a tag_id column
   tag_id: {
