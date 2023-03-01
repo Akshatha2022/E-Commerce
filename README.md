@@ -59,32 +59,31 @@ Video/GIF Walkthrough:
 
 GET ALL 
 
-
-![A screenshot displays a GETALL.](./Develop/WalkthroughGIF/GETALL.gif)
-
-
+Video Link: Here is a <a href="https://drive.google.com/file/d/1v5t8v50NHPXGXxkdSndy9VW1e0d3Nulh/view" target="_blank">Link</a> to a video walkthrough that demonstrates the functionality of "GET ALL" function in my application.
 
 
 
 GETONE Category
 
-![This GIF displays a GET One Category](./Develop/WalkthroughGIF/GETONE.gif)
+Video Link: Here is a <a href="https://drive.google.com/file/d/1B8dLJiiJYcEm_xY7bnH-0rPZQ2mAqoe6/view" target="_blank">Link</a> to a video walkthrough that demonstrates the functionality of "GET ONE" function in my application.
 
 
 
 POST
 
-![This GIF displays a POST](./Develop/WalkthroughGIF/POST.gif)
+
+Video Link: Here is a <a href="https://drive.google.com/file/d/1-EpxBuEmHofxcV4k1GvnkjgWOzNz7rrC/view" target="_blank">Link</a> to a video walkthrough that demonstrates the functionality of "POST" function in my application.
 
 PUT
 
-
-![This GIF displays a PUT](./Develop/WalkthroughGIF/PUT.gif)
+Video Link: Here is a <a href="https://drive.google.com/file/d/1nSQ-agTlozF6_O6jRnRdj4aFHFGVhzpH/view" target="_blank">Link</a> to a video walkthrough that demonstrates the functionality of "PUT" function in my application.
 
 
 DELETE
 
-![This GIF displays a DELETE](./Develop/WalkthroughGIF/DELETE.gif)
+Video Link: Here is a <a href="https://drive.google.com/file/d/1MLSXKH4GQvFpfNmnvic5fisxUSbQdUxm/view" target="_blank">Link</a> to a video walkthrough that demonstrates the functionality of "DELETE" function in my application.
+
+
 
 
 
